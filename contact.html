@@ -2,29 +2,93 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Связаться с нами | YRFLE</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Связаться с командой YRFLE.">
+  <meta name="keywords" content="контакты, обратная связь, email, support">
   <meta name="google-adsense-account" content="ca-pub-7158690744744856">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7158690744744856" crossorigin="anonymous"></script>
+  <title>Связаться с нами | YRFLE</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header, footer {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px;
+      background: white;
+    }
+    h1, h2 {
+      color: #444;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      box-sizing: border-box;
+    }
+    input[type="submit"] {
+      background-color: #007acc;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 20px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    input[type="submit"]:hover {
+      background-color: #005fa3;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <h1>Связаться с нами</h1>
-  <p>Если у вас есть вопросы, предложения или замечания — мы рады услышать вас!</p>
+  <header>
+    <h1>Связаться с нами</h1>
+    <p>Мы рады услышать ваше мнение, идеи и предложения</p>
+  </header>
 
-  <form action="mailto:support@yrfle.com" method="post" enctype="text/plain">
-    <label for="name">Имя:</label><br>
-    <input type="text" id="name" name="name" required><br><br>
+  <main>
+    <p>Если у вас есть вопросы, предложения или замечания — пожалуйста, воспользуйтесь формой ниже или напишите нам напрямую.</p>
 
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email" required><br><br>
+    <form action="mailto:support@yrfle.com" method="post" enctype="text/plain">
+      <label for="name">Имя:</label>
+      <input type="text" id="name" name="name" required>
 
-    <label for="message">Сообщение:</label><br>
-    <textarea id="message" name="message" rows="6" required></textarea><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
 
-    <input type="submit" value="Отправить">
-  </form>
+      <label for="message">Сообщение:</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
 
-  <p>Или напишите нам напрямую по адресу: <strong>support@yrfle.com</strong></p>
-  <p>&copy; 2025 YRFLE</p>
+      <input type="submit" value="Отправить">
+    </form>
+
+    <p style="margin-top: 30px;">Или напишите нам напрямую: <a href="mailto:support@yrfle.com">support@yrfle.com</a></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 YRFLE. Все права защищены.</p>
+  </footer>
 </body>
 </html>
